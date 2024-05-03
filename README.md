@@ -12,6 +12,7 @@
   <img src="./Resource/Game-Demo.gif" alt="Pig Game Demo Video" width="80%">
 </p>
 
+## you can play game [here](https://mjavad01.github.io/pig-game/) on github.io interface 
 # Pig Game Project Introduction
 
 Welcome to your **BONUS** project on implementing the Pig Game! This document outlines the core objectives of the project, providing you with essential information and guidelines to help you successfully complete the game's functionality using JavaScript. Before diving into the development aspects, let's understand the game itself.
