@@ -27,6 +27,7 @@ function initialisation() {
     document.getElementById('player-0-current-amount').textContent = '0';
     document.getElementById('player-1-current-amount').textContent = '0';
 
+    document.body.style.backgroundColor = "#69cbc0";
     document.querySelector('.btn-roll-dice').style.visibility = 'visible';
     document.querySelector('.btn-hold-score').style.visibility = 'visible';
 
@@ -71,6 +72,8 @@ function hold_score(){
             document.querySelector('.dice-image').style.display = 'none'
             document.querySelector('.btn-roll-dice').style.visibility = 'hidden';
             document.querySelector('.btn-hold-score').style.visibility = 'hidden';
+            document.body.style.backgroundColor = "#E64980";
+
         } else {
             
             change_player();
