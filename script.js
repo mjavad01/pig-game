@@ -27,6 +27,9 @@ function initialisation() {
     document.getElementById('player-0-current-amount').textContent = '0';
     document.getElementById('player-1-current-amount').textContent = '0';
 
+    document.querySelector('.btn-roll-dice').style.visibility = 'visible';
+    document.querySelector('.btn-hold-score').style.visibility = 'visible';
+
 }
 
 
@@ -65,9 +68,9 @@ function hold_score(){
         if (players_score[active_player] >= 100) {
             document.getElementById(`player-${active_player}-name`).textContent =   `player ${active_player} is the Winner!!!`;
             document.getElementById(`player-${active_player}-current-amount`).textContent = '\uD83C\uDF89'; //  JavaScript escape sequence party popper emoji
-            document.querySelector('.dice-image').style.display = 'none';
-            document.querySelector('.btn-roll-dice').style.display = 'none';
-            document.querySelector('.btn-hold-score').style.display = 'none';
+            document.querySelector('.dice-image').style.display = 'none'
+            document.querySelector('.btn-roll-dice').style.visibility = 'hidden';
+            document.querySelector('.btn-hold-score').style.visibility = 'hidden';
         } else {
             
             change_player();
